@@ -1,10 +1,21 @@
+/* *{
+    margin: 0;
+    padding: 0px;
+} */
 body{
     font-family: 'Open Sans', sans-serif;
+}
+.header-container{
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 .nav-title{
     color: #181818;
@@ -32,8 +43,90 @@ nav a{
     border: none;
     border-radius: 5px;
     background-color: #FD6E0A;
-    color: var(--white-color, #FFF); 
+    color: #FFF; 
     font-size: 20px;
     font-weight: 700;
     padding: 18px 35px;
+}
+/* ---------------------- */
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color:  #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    margin: 20px 0px;
+}
+.banner .profile-pic{
+    width: 584px;
+    height: 676px;
+    
+}
+.contact{
+    margin-left: 30px;
+}
+
+/* Main Section Starts */
+main{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+/* About Information */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 230px 0px;
+}
+.section-title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+.section-description{
+    color: var(--dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-info-topic{
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    /* line-height: 10px; */
+    margin-bottom: 5px;
+}
+
+.about-description{
+    color: #474747;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 10px;
 }
